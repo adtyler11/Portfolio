@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.page{
+    background-image: url("image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.top{
+    padding-bottom: 23px;
+}
+
+.mepic{
+    float: inline-start;
+}
+
+.navi{
+    float: right;
+    margin: 5px; 
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgba(218, 176, 125, 0.918);
+    color:  black;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 25px;
+}
+
+.name{
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    padding-top: 0;
+}
+
+hr{
+    margin: 0 auto;
+    display: block;
+    height: 0.5px;
+    width: 720px;
+}
+
+#grabber{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 35px;
+    color: aliceblue;
+    /* background-color: orange; */
+    padding-top: 60px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutme{
+    padding-top: 60px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* background-color: yellow; */
+    margin: 0 auto;
+}
+
+.fadein{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+    animation: fadein ease-in 2.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein{
+    0%{opacity: 0;}
+    100%{ opacity: 1;}
+}
+
+.title{
+    background-color: bisque;
+    max-width: 500px;
+    text-align: center;
+    flex: none;
+    margin: 0 auto;
+}
+
+.examples{
+    text-align: center;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#img{
+    height: 200px;
+    border-radius: 30%;
+    flex-wrap: wrap;
+    opacity: 100%;
+}
+
+#img:hover, #img:active{
+opacity: 40%;
+content:" ";
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+transition:all 1s;
+border :5px solid black;
+transition:all 1s;
+}
+
+.aboutme2{
+    padding-top: 60px;
+    width: 850px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.contact1{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.contact2{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+
+.contact3{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
+
+.contact4{
+    font-family: garamond;
+    font-style: italic;
+    font-size: 30px;
+    color: aliceblue;
+    
+}
